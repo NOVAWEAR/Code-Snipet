@@ -1,1 +1,1 @@
-document.write('<script src="https://rawcdn.githack.com/NOVAWEAR/Code-Snipet/956a502d97999efa7475c49bf3936ff2f398d6b9/novawear-signature-demo/v4/app.js"><\/script><script src="v7-media.js"><\/script>');
+document.write('<script src="https://rawcdn.githack.com/NOVAWEAR/Code-Snipet/956a502d97999efa7475c49bf3936ff2f398d6b9/novawear-signature-demo/v4/app.js"><\/script><script>window.PRODUCTS=PRODUCTS;<\/script><script src="v7-media.js"><\/script>');
