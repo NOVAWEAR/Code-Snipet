@@ -1,4 +1,5 @@
 const v15Desktop=document.createElement('link');v15Desktop.rel='stylesheet';v15Desktop.href='desktop.css';v15Desktop.setAttribute('data-v15-desktop','1');document.head.appendChild(v15Desktop);
+const v15Proof=document.createElement('link');v15Proof.rel='stylesheet';v15Proof.href='desktop-proof.css';v15Proof.setAttribute('data-v15-proof','1');document.head.appendChild(v15Proof);
 const money=n=>new Intl.NumberFormat('de-DE',{style:'currency',currency:'EUR'}).format(n);
 const read=(k,d)=>{try{const v=localStorage.getItem(k);return v?JSON.parse(v):d}catch(e){return d}};
 const write=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}};
