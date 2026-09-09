@@ -1,3 +1,4 @@
+@import url("desktop-look.css");
 @media (min-width:1024px){
   :root{--desk-gutter:clamp(28px,3vw,64px);--desk-max:1920px}
   body{overflow-x:hidden}
