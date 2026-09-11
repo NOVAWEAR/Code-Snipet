@@ -9,9 +9,9 @@
 
  /* Full-bleed campaign stage */
  .v25-hero{min-height:calc(100vh - 30px);display:grid;grid-template-columns:minmax(540px,.72fr) minmax(700px,1.28fr);padding-top:0;position:relative;overflow:hidden}
- .v25-hero-media{position:absolute!important;inset:0!important;grid-column:1/-1!important;min-height:calc(100vh - 30px);border-left:0!important;background:#050608!important;z-index:0}
+ .v25-hero-media{position:absolute!important;inset:0!important;grid-column:1/-1!important;min-height:calc(100vh - 30px);border-left:0!important;z-index:0;background-color:#050608!important;background-image:var(--v25-hero-desktop)!important;background-repeat:no-repeat!important;background-size:cover!important;background-position:center 48%!important}
  .v25-hero-media:after{background:linear-gradient(180deg,rgba(0,0,0,.04),transparent 38%,rgba(0,0,0,.18) 100%)!important}
- .v25-hero-media img{padding:0!important;object-position:center center!important;transform:none!important}
+ .v25-hero-media img{display:none!important;padding:0!important;object-position:center center!important;transform:none!important}
 
  /* 15% glass panel instead of solid black box */
  .v25-hero-copy{grid-column:1;grid-row:1;min-height:calc(100vh - 30px);padding:calc(120px + 3vh) clamp(42px,4vw,76px) 7vh;justify-content:flex-end;align-items:flex-start;background:rgba(0,0,0,.15)!important;backdrop-filter:blur(2px);-webkit-backdrop-filter:blur(2px);border-right:1px solid rgba(255,255,255,.07);position:relative;z-index:5}
