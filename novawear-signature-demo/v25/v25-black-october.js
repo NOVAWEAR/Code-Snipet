@@ -1,8 +1,8 @@
 (function(){
  const DROP=[
-  {n:'GUARDIAN',h:'guardian-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-guardian-hero-exact.png?v=1789016538'},
-  {n:'ASCEND',h:'ascend-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-ascend-hero-exact.png?v=1789016524'},
-  {n:'SOVEREIGN',h:'sovereign-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-sovereign-hero-exact.png?v=1789016599'},
+  {n:'GUARDIAN',h:'guardian-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-v26-guardian-cinematic.png?v=1789151999'},
+  {n:'ASCEND',h:'ascend-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-v26-ascend-cinematic.png?v=1789152020'},
+  {n:'SOVEREIGN',h:'sovereign-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-v26-sovereign-cinematic.png?v=1789152034'},
   {n:'DRAGON REIGN',h:'dragon-reign-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-dragon-reign-hero-exact.png?v=1789016492'},
   {n:'SERPENT CROWN',h:'serpent-crown-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-serpent-crown-hero-exact.png?v=1789016555'},
   {n:'NIGHT EMPRESS',h:'night-empress-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-night-empress-hero-exact.png?v=1789016508'},
@@ -14,7 +14,7 @@
   {n:'RAVEN AXE',h:'raven-axe-heavyweight-oversized-t-shirt',i:'https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-raven-axe-hero-exact.png?v=1789016583'}
  ];
  const CINEMATIC='https://cdn.shopify.com/s/files/1/0663/6955/2648/files/novawear-v26-new-icons-preview.png?v=1789151724';
- const card=(p)=>`<article class="v25-black-card"><a href="https://www.novawear.de/products/${p.h}"><div class="v25-black-media"><span class="v25-black-badge">NEW · BLACK OCTOBER</span><img src="${p.i}&width=900" loading="lazy" alt="NOVAWEAR ${p.n} Heavyweight Oversized T-Shirt"></div><div class="v25-black-meta"><b>${p.n}</b><span>Heavyweight Oversized T-Shirt · 240 GSM</span><em>42,99 €</em></div></a></article>`;
+ const card=(p)=>`<article class="v25-black-card"><a href="https://www.novawear.de/products/${p.h}"><div class="v25-black-media"><span class="v25-black-badge">NEW · BLACK OCTOBER</span><img src="${p.i}${p.i.includes('?')?'&':'?'}width=900" loading="lazy" alt="NOVAWEAR ${p.n} Heavyweight Oversized T-Shirt"></div><div class="v25-black-meta"><b>${p.n}</b><span>Heavyweight Oversized T-Shirt · 240 GSM</span><em>42,99 €</em></div></a></article>`;
  function home(){
   const root=document.querySelector('.v24-root'); if(!root||document.querySelector('.v25-black-drop'))return;
   const trust=root.querySelector('.v24-trust');
