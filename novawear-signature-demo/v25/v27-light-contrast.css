@@ -1,0 +1,61 @@
+/* NOVAWEAR V27.1 — Light Contrast Pass */
+:root{--v271-paper:#f1ede4;--v271-paper-2:#e8e2d7;--v271-ink:#11110f;--v271-muted:#6f6a62;--v271-line:#d5cec1;--v271-gold:#b88a38}
+
+/* Trust + category discovery become warm, bright commerce zones */
+.v27-ready .v24-trust{background:var(--v271-paper)!important;color:var(--v271-ink)!important;border-color:var(--v271-line)!important}
+.v27-ready .v24-trust>div{border-color:var(--v271-line)!important}
+.v27-ready .v24-trust b{color:var(--v271-ink)!important}.v27-ready .v24-trust span{color:var(--v271-muted)!important}
+.v27-ready .v27-cats{background:var(--v271-paper);color:var(--v271-ink);padding-top:58px;padding-bottom:66px}
+.v27-ready .v27-cats .v27-eyebrow{color:var(--v271-gold)}
+.v27-ready .v27-cats .v27-head p{color:var(--v271-muted)}
+.v27-ready .v27-cats .v27-cat{color:var(--v271-ink)}
+.v27-ready .v27-cats .v27-cat-media{background:#ddd6c9;border-color:#cfc6b7}
+.v27-ready .v27-cats .v27-cat:hover .v27-cat-media{border-color:#9e927f}
+.v27-ready .v27-cats .v27-cat small{color:#857e73}
+
+/* Keep seasonal drop dark for contrast */
+.v27-ready .v25-black-drop{background:#090909!important}
+
+/* Core Essentials = lighter product browsing surface */
+.v27-ready .v24-shop{background:var(--v271-paper)!important;color:var(--v271-ink)!important;max-width:none!important;padding-left:max(16px,calc((100vw - var(--v27-max))/2 + 16px))!important;padding-right:max(16px,calc((100vw - var(--v27-max))/2 + 16px))!important}
+.v27-ready .v24-shop .eye{color:var(--v271-gold)!important}
+.v27-ready .v24-shop .v24-section-head p{color:var(--v271-muted)!important}
+.v27-ready .v24-shop .v24-product-card{background:#f8f5ef!important;border-color:#d6cfc4!important;color:var(--v271-ink)!important}
+.v27-ready .v24-shop .v24-product-media{background:#e7e1d7!important}
+.v27-ready .v24-shop .v24-product-meta b{color:var(--v271-ink)!important}
+.v27-ready .v24-shop .v24-product-meta span{color:var(--v271-muted)!important}
+
+/* Editorial stays dark */
+.v27-ready .v27-editorial{background:#090909}
+
+/* Heavyweight story already light: refine tone */
+.v27-ready .v24-value{background:#ece6da!important;color:var(--v271-ink)!important}
+.v27-ready .v24-value .eye{color:var(--v271-gold)!important}
+.v27-ready .v24-value-points>div{border-color:#c9c0b2!important}
+.v27-ready .v24-value-points span{color:#645e55!important}
+
+/* Bundle remains dark so offer has weight */
+.v27-ready .v24-bundle{background:#090909!important}
+
+/* Fit + complete look become a bright utility zone */
+.v27-ready .v24-fitlook{background:var(--v271-paper)!important;color:var(--v271-ink)!important;max-width:none!important;padding-left:max(16px,calc((100vw - var(--v27-max))/2 + 16px))!important;padding-right:max(16px,calc((100vw - var(--v27-max))/2 + 16px))!important}
+.v27-ready .v24-fitlook .eye{color:var(--v271-gold)!important}
+.v27-ready .v24-fitlook .v24-fit-card,.v27-ready .v24-fitlook .v24-look-card{background:#faf7f1!important;border-color:#d4ccbf!important;color:var(--v271-ink)!important}
+.v27-ready .v24-fitlook p,.v27-ready .v24-fitlook span{color:var(--v271-muted)!important}
+.v27-ready .v24-fitlook input,.v27-ready .v24-fitlook select{background:#fff!important;color:#111!important;border-color:#cfc6b7!important}
+
+/* Early access = soft paper block */
+.v27-ready .v24-newsletter{background:#e6dfd2!important;color:var(--v271-ink)!important}
+.v27-ready .v24-newsletter .eye{color:var(--v271-gold)!important}
+.v27-ready .v24-newsletter p{color:var(--v271-muted)!important}
+.v27-ready .v24-newsletter input{background:#f8f5ef!important;color:#111!important;border-color:#c9c0b3!important}
+.v27-ready .v24-newsletter button{background:#111!important;color:#fff!important}
+
+/* Footer remains deep, but slightly softer than pure black */
+.v27-ready .v27-footer{background:#11110f!important;border-top-color:#24221f!important}
+
+/* Mobile: preserve contrast and avoid cramped bright zones */
+@media(max-width:900px){
+ .v27-ready .v24-shop,.v27-ready .v24-fitlook{padding-left:12px!important;padding-right:12px!important}
+ .v27-ready .v27-cats{padding-top:42px;padding-bottom:48px}
+}
